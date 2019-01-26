@@ -1,0 +1,35 @@
+# cvs2cvs file converter
+
+#### Description
+`cvs2cvs` converts a cvs file by adding a row_num and splitting the original cvs file into pieces
+
+##### Usage
+
+__How to run__
+
+Double click on the `runwin.bat` file and choose a csv file to convert
+
+__Input file__
+
+Takes a cvs file as input
+
+__Parameters__
+
+`size_of_file_limit_in_megs` represents the max size allowed
+`RSCRIPT_EXE` represents the location of the RScript.exe
+
+__Output file__
+
+Same name as the input file but with a timestamp
+
+
+##### Details
+
+It converts a cvs file by adding a `row_name` column.
+The file is split into pieces, if the file size is greater than the value of `size_of_file_limit_in_megs` then file is split into pieces.
+
+#### References
+
+##### See Also
+
+#### Examples
