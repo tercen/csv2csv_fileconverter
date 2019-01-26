@@ -7,7 +7,15 @@
 
 __How to run__
 
-Double click on the `runwin.bat` file and choose a csv file to convert
+Run the following for Windows:
+
+`git clone https://github.com/tercen/csv2csv_fileconverter`
+
+`cd csv2csv_fileconverter`
+
+double click `run-win.bat` 
+
+A dialog appears for user to choose a csv file to convert
 
 __Input file__
 
