@@ -1,11 +1,13 @@
 # cvs2cvs file converter
 
 #### Description
-`cvs2cvs` converts a cvs file by adding a `row_num` column and splitting the original cvs file into pieces.
+`cvs2cvs` converts a cvs file by adding a `row_num` column and splitting, if neccessary, the original cvs file into pieces.
 
 ##### Usage
 
 __How to run__
+
+Install Tercen Desktop, if you do not have R installed
 
 Run the following for Windows:
 
@@ -23,10 +25,10 @@ Takes a cvs file as input
 
 __Parameters__
 
-`size_of_file_limit_in_megs` represents the max size allowed
+`size_of_file_limit_in_megs` represents the max size allowed, default is 100 Megabytes.
 
 
-`RSCRIPT_EXE` represents the location of the RScript.exe
+`RSCRIPT_EXE` represents the location of the RScript.exe, default is the RScript.exe which comes with Tercen Desktop.
 
 __Output file__
 
